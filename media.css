@@ -1,0 +1,27 @@
+@media screen and (max-width: 800px) {
+  .heading {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1216px) {
+  .nav {
+    height: 150px;
+  }
+
+  .nav-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .nav-img {
+    display: none;
+  }
+}
+@media only screen and (min-width: 250px) {
+  .container {
+    width: 473vh;
+  }
+}
